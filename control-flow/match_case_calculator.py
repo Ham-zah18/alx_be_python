@@ -2,8 +2,8 @@ num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
 
 
-chosen_operation = input("Choose the operation (+, -, *, /): ")
-match chosen_operation:
+operation = input("Choose the operation (+, -, *, /): ")
+match operation:
     case "+":
         result = num1 + num2
         print("The result is", result)
@@ -18,3 +18,4 @@ match chosen_operation:
             print("The result is", result)
         else:
             print("cannot divide by zero.")
+
