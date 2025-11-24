@@ -1,4 +1,4 @@
-current_weather = str(input("What is the weather like today? (sunny/rainy/cold): "))
+current_weather = input("What is the weather like today? (sunny/rainy/cold): ")
 if current_weather == "sunny":
     message = "Wear a t-shirt and sunglasses."
 elif current_weather == "rainy":
@@ -9,3 +9,4 @@ else:
     message = "Sorry, I don't have recommendations for this weather."
 
 print(message)
+
