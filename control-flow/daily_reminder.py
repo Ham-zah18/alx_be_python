@@ -1,6 +1,3 @@
-#A script that asks users for a task, priority level and time bound to set a daily reminer
-
-
 Task = input("Enter a single task: ")
 Priority = input("choose a priority (high/medium/low): ")
 Time_bound = input("Is the task time-bound (yes/no): ")
@@ -23,3 +20,4 @@ match priority:
             print(f"Reminder: '{task}' is a low priority task. Consider completing it when you have free time.")
     case _:
         print("Please choose a valid task priority")
+
