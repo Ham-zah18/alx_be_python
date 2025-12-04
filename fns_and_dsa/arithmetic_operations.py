@@ -6,7 +6,6 @@ def perform_operation(num1, num2, operation):
     elif operation == "multiply":
         return num1 * num2
     elif operation == "divide":
-        return num1 / num2
         if num2 == o:
             return Error
         else:
@@ -14,3 +13,4 @@ def perform_operation(num1, num2, operation):
     else:
 
         return "select a valid operation(add, subtract, multiply, division)"
+
