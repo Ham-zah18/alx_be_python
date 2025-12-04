@@ -7,9 +7,10 @@ def perform_operation(num1, num2, operation):
         print(num1 * num2)
     elif operation == "divide":
         if num2 == o:
-            print("cannot divide by 0")
+            return ("cannot divide by 0")
         else:
             print(num1 / num2)
     else:
         print("select a valid operation(add, subtract, multiply, division)")
+
 
