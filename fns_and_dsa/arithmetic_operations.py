@@ -8,8 +8,9 @@ def perform_operation(num1, num2, operation):
     elif operation == "divide":
         return num1 / num2
         if num2 == o:
-            return "cannot divide by 0"
+            return Error
         else:
             return num1 / num2
     else:
+
         return "select a valid operation(add, subtract, multiply, division)"
