@@ -1,0 +1,15 @@
+def perform_operation(num1, num2, operation):
+    if operation == "add":
+        print(num1 + num2)
+    elif operation == "subtract":
+        print(num1 - num2)
+    elif operation == "multiply":
+        print(num1 * num2)
+    elif operation == "divide":
+        print(num1 / num2)
+        if num2 == o:
+            print("cannot divide by 0")
+        else:
+            print(num1 / num2)
+    else:
+        print("select a valid operation(add, subtract, multiply, division)")
