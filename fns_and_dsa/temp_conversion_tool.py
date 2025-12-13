@@ -10,7 +10,7 @@ def convert_to_fahrenheit(celsius):
     return f"{celsius}°C is {temp_in_fahrenheit}°F"
 
 temperature = float(input("Enter the temperature to convert: "))
-temperature_type = (input("Is this temperature in celcius or farhenheit? (C/F): "))
+temperature_type = (input("Is this temperature in Celsius or Fahrenheit? (C/F): "))
 
 if type(temperature).__name__ == "float":
     if temperature_type == "C":
@@ -21,6 +21,7 @@ if type(temperature).__name__ == "float":
         print("please select a valid temperature (C/F)")
 else:
     print("invalid temperature. Please enter a numeric value.")
+
 
 
 
