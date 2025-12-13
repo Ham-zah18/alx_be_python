@@ -1,5 +1,5 @@
-FAHRENHEIT_TO_CELSIUS_FACTOR = (5/9)
-CELSIUS_TO_FAHRENHEIT_FACTOR = (9/5)
+FAHRENHEIT_TO_CELSIUS_FACTOR = 5/9
+CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5
 
 def convert_to_celsius(fahrenheit):
     temp_in_celsius = (fahrenheit - 32) * FAHRENHEIT_TO_CELSIUS_FACTOR 
@@ -21,6 +21,7 @@ if type(temperature).__name__ == "float":
         print("please select a valid temperature (C/F)")
 else:
     print("invalid temperature. Please enter a numeric value.")
+
 
 
 
